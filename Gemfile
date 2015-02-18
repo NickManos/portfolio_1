@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'coffee-rails', '~> 4.0.0'
 gem 'eefgilm'
+gem 'factory_girl_rails'
+gem 'faker'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
 gem 'pg'
