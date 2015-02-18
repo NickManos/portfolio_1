@@ -10,5 +10,6 @@ gem 'rails_12factor'
 gem 'sass-rails', '~> 4.0.3'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spring', group: :development
+gem 'stripe-ruby-mock', '~> 2.0.4', :require => 'stripe_mock'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
