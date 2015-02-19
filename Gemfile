@@ -16,3 +16,7 @@ gem 'stripe-ruby-mock', '~> 2.0.4', :require => 'stripe_mock'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'devise'
+
+%w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
+  gem lib, :git => "git://github.com/rspec/#{lib}.git", :branch => 'master'
+end
