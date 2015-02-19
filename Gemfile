@@ -15,3 +15,4 @@ gem 'spring', group: :development
 gem 'stripe-ruby-mock', '~> 2.0.4', :require => 'stripe_mock'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
+gem 'devise'
